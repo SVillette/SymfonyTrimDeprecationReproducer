@@ -13,6 +13,9 @@ I added a unique controller that just render a basic template as the deprecation
 When I visit the `/` route I get a deprecation warning about DbalLogger. This is NOT the issue I want to report here.
 Then I click on log menu item in the debug bar and the trim deprecation is logged in `dev.deprecations.log` only at that time.
 
+**EDIT** This repository is now archived as it was fixed in symfony/symfony#47238
+
+
 ## Deprecation log
 ```
 [2022-08-09T16:55:55.521167+02:00] deprecation.INFO: Deprecated: trim(): Passing null 
